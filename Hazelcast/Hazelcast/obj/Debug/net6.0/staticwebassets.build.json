@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5w7aSy1A4MbgTzDuLFUZvXipgQISamTY4hu+AiToRJI=",
+  "Source": "Hazelcast",
+  "BasePath": "_content/Hazelcast",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
