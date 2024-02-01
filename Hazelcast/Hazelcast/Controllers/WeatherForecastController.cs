@@ -26,7 +26,17 @@ namespace Hazelcast.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public async Task<IEnumerable<WeatherForecast>> Get()
         {
-            await using var client = await HazelcastClientFactory.StartNewClientAsync(options => options.Networking.Addresses.Add("172.26.32.1:5701"));
+
+            await using var client = await HazelcastClientFactory.StartNewClientAsync(_options);
+
+            //await using var client = await HazelcastClientFactory.StartNewClientAsync(o =>
+            //{                 
+            //    o.Networking.Addresses.Add("127.0.0.1:5701");
+            //    o.Authentication.ConfigureUsernamePasswordCredentials("admin", "Pbb1223@");
+            //    o.ClusterName = "pbbtrain";                
+            //    //o.ClientName = "MC-Client-pbbtrain";
+            //});
+
             await using var set = await client.GetSetAsync<string>("my-distributed-set");           
             await set.AddAsync("item1");
             await set.AddAsync("item1");

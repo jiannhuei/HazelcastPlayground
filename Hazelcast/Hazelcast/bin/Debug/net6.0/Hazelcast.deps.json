@@ -9,7 +9,6 @@
       "Hazelcast/1.0.0": {
         "dependencies": {
           "Hazelcast.Net": "5.3.1",
-          "Hazelcast.Net.DependencyInjection": "5.3.1",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.4",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -32,20 +31,6 @@
           }
         }
       },
-      "Hazelcast.Net.DependencyInjection/5.3.1": {
-        "dependencies": {
-          "Hazelcast.Net": "5.3.1",
-          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Options": "6.0.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/Hazelcast.Net.DependencyInjection.dll": {
-            "assemblyVersion": "5.3.1.0",
-            "fileVersion": "5.3.1.0"
-          }
-        }
-      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
       "Microsoft.Extensions.Configuration/6.0.0": {
         "dependencies": {
@@ -56,11 +41,6 @@
       "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0"
-        }
-      },
-      "Microsoft.Extensions.Configuration.Binder/6.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
         }
       },
       "Microsoft.Extensions.Configuration.CommandLine/6.0.0": {
@@ -99,7 +79,6 @@
           "System.Text.Json": "6.0.0"
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
       "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0"
@@ -113,34 +92,12 @@
         }
       },
       "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {},
-      "Microsoft.Extensions.Hosting.Abstractions/6.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
-        }
-      },
       "Microsoft.Extensions.Logging.Abstractions/6.0.2": {
         "runtime": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.922.41905"
           }
-        }
-      },
-      "Microsoft.Extensions.Options/6.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Primitives": "6.0.0"
-        }
-      },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Options": "6.0.0",
-          "Microsoft.Extensions.Primitives": "6.0.0"
         }
       },
       "Microsoft.Extensions.Primitives/6.0.0": {
@@ -230,13 +187,6 @@
       "path": "hazelcast.net/5.3.1",
       "hashPath": "hazelcast.net.5.3.1.nupkg.sha512"
     },
-    "Hazelcast.Net.DependencyInjection/5.3.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+49GZ8mdcM4FyZlwY9T/YalnBWpOrLPlqX0gtypxD/4+ByAsTNhRAFySmTvskTo6y7yMhJfMJKThDMxrBmxzjw==",
-      "path": "hazelcast.net.dependencyinjection/5.3.1",
-      "hashPath": "hazelcast.net.dependencyinjection.5.3.1.nupkg.sha512"
-    },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
       "serviceable": true,
@@ -257,13 +207,6 @@
       "sha512": "sha512-qWzV9o+ZRWq+pGm+1dF+R7qTgTYoXvbyowRoBxQJGfqTpqDun2eteerjRQhq5PQ/14S+lqto3Ft4gYaRyl4rdQ==",
       "path": "microsoft.extensions.configuration.abstractions/6.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Configuration.Binder/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-b3ErKzND8LIC7o08QAVlKfaEIYEvLJbtmVbFZVBRXeu9YkKfSSzLZfR1SUfQPBIy9mKLhEtJgGYImkcMNaKE0A==",
-      "path": "microsoft.extensions.configuration.binder/6.0.0",
-      "hashPath": "microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.CommandLine/6.0.0": {
       "type": "package",
@@ -293,13 +236,6 @@
       "path": "microsoft.extensions.configuration.json/6.0.0",
       "hashPath": "microsoft.extensions.configuration.json.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
-    },
     "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -321,33 +257,12 @@
       "path": "microsoft.extensions.filesystemglobbing/6.0.0",
       "hashPath": "microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Hosting.Abstractions/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-GcT5l2CYXL6Sa27KCSh0TixsRfADUgth+ojQSD5EkzisZxmGFh7CwzkcYuGwvmXLjr27uWRNrJ2vuuEjMhU05Q==",
-      "path": "microsoft.extensions.hosting.abstractions/6.0.0",
-      "hashPath": "microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512"
-    },
     "Microsoft.Extensions.Logging.Abstractions/6.0.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-pwXCZKaA7m5wgmCj49dW+H1RPSY7U62SKLTQYCcavf/k3Nyt/WnBgAjG4jMGnwy9rElfAZ2KvxvM5CJzJWG0hg==",
       "path": "microsoft.extensions.logging.abstractions/6.0.2",
       "hashPath": "microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Options/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
-      "path": "microsoft.extensions.options/6.0.0",
-      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bXWINbTn0vC0FYc9GaQTISbxhQLAMrvtbuvD9N6JelEaIS/Pr62wUCinrq5bf1WRBGczt1v4wDhxFtVFNcMdUQ==",
-      "path": "microsoft.extensions.options.configurationextensions/6.0.0",
-      "hashPath": "microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/6.0.0": {
       "type": "package",

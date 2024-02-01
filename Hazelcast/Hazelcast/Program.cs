@@ -1,5 +1,4 @@
 using Hazelcast;
-using Hazelcast.DependencyInjection;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,11 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.Configure<HazelcastOptions>(options =>
+builder.Services.Configure<HazelcastOptions>(o =>
 {
-    options.Networking.Addresses.Add("172.26.32.1:5701");
+    o.Networking.Addresses.Add("127.0.0.1:5701");
+    o.Authentication.ConfigureUsernamePasswordCredentials("admin", "Pbb1223@");
+    o.ClusterName = "pbbtrain";
 });
 builder.Services.AddTransient<HazelcastOptions>();
+
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

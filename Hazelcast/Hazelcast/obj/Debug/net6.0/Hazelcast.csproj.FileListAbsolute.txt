@@ -6,7 +6,6 @@ D:\Git\HazelcastPlayground\Hazelcast\Hazelcast\bin\Debug\net6.0\Hazelcast.runtim
 D:\Git\HazelcastPlayground\Hazelcast\Hazelcast\bin\Debug\net6.0\Hazelcast.dll
 D:\Git\HazelcastPlayground\Hazelcast\Hazelcast\bin\Debug\net6.0\Hazelcast.pdb
 D:\Git\HazelcastPlayground\Hazelcast\Hazelcast\bin\Debug\net6.0\Hazelcast.Net.dll
-D:\Git\HazelcastPlayground\Hazelcast\Hazelcast\bin\Debug\net6.0\Hazelcast.Net.DependencyInjection.dll
 D:\Git\HazelcastPlayground\Hazelcast\Hazelcast\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 D:\Git\HazelcastPlayground\Hazelcast\Hazelcast\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Git\HazelcastPlayground\Hazelcast\Hazelcast\bin\Debug\net6.0\Microsoft.OpenApi.dll
